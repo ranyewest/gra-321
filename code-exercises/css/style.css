@@ -2,6 +2,17 @@
 
 }
 
-h1 {
+body {
+	background-color:#e3ded1
+}
 
+
+h1 {
+	color:#fc4503;
+    font-family: Franklin Gothic;
+    margin-top: 50px;
+    margin-left: 30px; font-size:700%;
+   
+
+ 
 }
