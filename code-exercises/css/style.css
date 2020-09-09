@@ -17,7 +17,7 @@ button {
 
 .container {
 
-	background-image:url("joe-smile.jpg");
+	background-image: url("../joe-smile.jpg");
 	background-size: cover;
 	height:700px;
 	margin:0 auto;
