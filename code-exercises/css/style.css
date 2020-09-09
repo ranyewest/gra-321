@@ -26,6 +26,19 @@ button {
 }
 
 
+/*---Media Queries---*/
+@media screen and (max-width: 1000px) {
+	body {
+
+		background-color: LightSalmon;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		background-color: MediumSeaGreen;
+	}
+}
 
 
 body {
