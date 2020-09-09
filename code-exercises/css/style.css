@@ -13,6 +13,21 @@ button {
 }
 
 
+
+
+.container {
+
+	background-image:url("joe-smile.jpg");
+	background-size: cover;
+	height:700px;
+	margin:0 auto;
+	width:50%;
+
+}
+
+
+
+
 body {
 	background-color:#e3ded1;
 }
