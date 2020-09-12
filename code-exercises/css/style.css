@@ -1,3 +1,10 @@
+body {
+	background-color:#e3ded1;
+}
+
+
+
+
 button {
   border: none;
   color: white;
@@ -42,12 +49,6 @@ button {
 
 
 
-
-
-
-body {
-	background-color:#e3ded1;
-}
 
 
 h1 {
