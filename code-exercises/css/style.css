@@ -25,8 +25,9 @@ button {
 .container {
 
 	background-image: url(https://github.com/ranyewest/gra-321/blob/master/code-exercises/img/joe-smile%20.JPG?raw=true);
-	background-size: cover;
-	height:700px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 700px;
 	margin:0 auto;
 	width:50%;
 
@@ -71,3 +72,9 @@ ul {
 }
 
 
+h2 {font-family: Franklin Gothic;
+	color:#fff;
+	font-size:52px;
+	position: relative;
+	text-align: center;
+}
