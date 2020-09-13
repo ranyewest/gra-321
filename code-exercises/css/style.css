@@ -34,6 +34,23 @@ button {
 }
 
 
+.layout {
+
+	background-image: url(https://github.com/ranyewest/gra-321/blob/master/code-exercises/img/Custom%20Size%20%E2%80%93%201.png?raw=true);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 700px;
+	margin:0 auto;
+	width:50%;
+
+}
+
+
+
+
+
+
+
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
 	body {
