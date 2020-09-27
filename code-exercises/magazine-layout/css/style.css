@@ -91,7 +91,8 @@ p3 {
 
 
 .body-container1 {
-
+	
+	display: inline-block;
 	margin-right: 11.5%;
 	margin-bottom: 3%;
 	background-color: white;
