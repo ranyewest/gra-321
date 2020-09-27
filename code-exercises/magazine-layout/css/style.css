@@ -9,8 +9,9 @@ body {
 h1 {
 	color:#fc4503;
     font-family: Franklin Gothic;
-    margin-top: 50px;
-    margin-left: 30px; font-size:700%;
+    font-size: 52px;
+    position: relative;
+    text-align: center;
     
 }
 
@@ -30,7 +31,7 @@ p1 {
 	font-family: serif;
 	color:black;
 	font-size: 36px;
-	font-size: 40px;
+	line-height: 40px;
 
 }
 
@@ -38,7 +39,7 @@ p2 {
 	font-family: sans-serif;
 	color:black;
 	font-size: 20px;
-	font-size:27px;
+	line-height: 27px;
 
 }
 
@@ -46,7 +47,7 @@ p3 {
 	font-family: sans-serif;
 	color:black;
 	font-size: 20px;
-	font-size: 15px;
+	line-height: 15px;
 
 }
 
