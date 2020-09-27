@@ -15,3 +15,13 @@ h1 {
 }
 
 
+.bathroom {
+
+	background-image: url(https://github.com/ranyewest/gra-321/blob/master/code-exercises/magazine-layout/img/bathroom.png?raw=true);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 700px;
+	margin:0 auto;
+	width:50%;
+
+}
