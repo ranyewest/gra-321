@@ -18,7 +18,84 @@ h1 {
 .container {
 
 	margin: 20 auto;
-	padding-left:6%;
-	padding:6%;
+	padding-left: 6%;
+	padding-right: :6%;
+	padding-bottom: 3%;
+
+}
+
+
+.header-container {
+
+
+	
+	background-color: white;
+	margin-bottom: 2.75%;
+	margin-right: 6%;
+	height: 65px;
+	width:699px;
+	margin: 20 auto;
+
+}
+
+
+.caption-container {
+
+
+	margin-bottom: 3.7%;
+	background-color: white;
+	height: 76px;
+	width: 889px;
+
+
+}
+
+
+.body-container1 {
+
+	margin-right: 11.5%;
+	margin-bottom: 3%;
+	background-color: white;
+	height: 184px;
+	width: 479px;
+	margin: 20 auto;
+
+}
+
+.body-container2 {
+
+	display: inline-block;
+	margin-bottom: 3%;
+	background-color: white;
+	height: 184px;
+	width: 479px;
+
+}
+
+.big-container {
+
+
+	
+	background-color: white;
+	margin-left: 6%;
+	margin-right: 6%;
+	height: 396px;
+	width: 1088px;
+	margin: 20 auto;
+	margin-bottom: 6%
+}
+
+
+.page-container
+{
+
+	height: 15px;
+	width: 251px;
+	margin-left: 1045px;
+	margin-right: 6%;
+	background-color: white;
+	margin: 20 auto;
+	
+
 
 }
