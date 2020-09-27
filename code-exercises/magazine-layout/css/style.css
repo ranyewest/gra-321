@@ -15,6 +15,44 @@ h1 {
 }
 
 
+
+h2 {
+
+	font-family: sans-serif;
+	color:black;
+	font-size: 61px;
+	line-height: normal; 
+
+}
+
+
+p1 {
+	font-family: serif;
+	color:black;
+	font-size: 36px;
+	font-size: 40px;
+
+}
+
+p2 {
+	font-family: sans-serif;
+	color:black;
+	font-size: 20px;
+	font-size:27px;
+
+}
+
+p3 {
+	font-family: sans-serif;
+	color:black;
+	font-size: 20px;
+	font-size: 15px;
+
+}
+
+
+
+
 .container {
 
 	margin: 20 auto;
