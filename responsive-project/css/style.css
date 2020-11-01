@@ -1,19 +1,44 @@
-* {
-background-color:#e3ded1
-}
-
 body {
-	background-color:#e3ded1
+	background-color: #F1F1F1
 }
 
 
 h1 {
-	color:#fc4503;
-    font-family: Franklin Gothic;
+	color:#403F3F;
+	text-align: right;
+    font-family: segoe UI;
     margin-top: 50px;
-    margin-left: 30px; font-size:700%;
-   
+    margin-left: 30px; font-size:80px;
+	}
 
- 
+
+
+	button {
+  border: none;
+	font-family: segoe UI;
+  color: #403F3F;
+  background-color: #FDDE68;
+  padding:1em 2em 1em 2em;
 }
 
+
+.header-container {
+
+  margin: auto;
+	background-color: transparent;
+	height: 65px;
+	width:699px;
+	text-align: center;
+
+}
+
+
+
+.container {
+
+	margin: 20 auto;
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-bottom: 3%;
+
+}
