@@ -106,39 +106,45 @@ h1 {
   color: #403F3F;
   background-color: #FDDE68;
   padding:1em 2em 1em 2em;
+text-align: center;
+	margin-top: 15px;
+	margin-right: 25px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
 }
 
 
 
 
-.container {
-	margin-left: 1%;
-}
+
+
+
 
 
 .gallery-1 {
-	display: inline-block;
+	display: inline-flex;
 	margin-left: 5%;
 	margin-right: 3%;
 	margin-bottom: 3%;
 }
 
 .gallery-2 {
-	display: inline-block;
+	display: inline-flex;
 	margin-right: 3%;
 	margin-bottom: 3%;
 }
 
 
 .gallery-3 {
-	display: inline-block;
+	display: inline-flex;
 	margin-left: 5%;
 	margin-right: 3%;
 	margin-bottom: 3%;
 }
 
 .gallery-4 {
-	display: inline-block;
+	display: inline-flex;
 	margin-right: 3%;
 	margin-bottom: 3%;
 }
@@ -152,7 +158,19 @@ h1 {
 	margin-bottom: 3%;
 }
 
+.sub-header-container-sandwiches {
+	background-color: transparent;
+	height: 20px;
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
 
+.sub-header-container02 {
+	background-color: transparent;
+	height: 20px;
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
 
 
 
@@ -165,6 +183,15 @@ h1 {
 
 }
 
+
+
+.menu-items-sand {
+	display: inline-block;
+	background-color: transparent;
+	height: 65px;
+	margin-left: 5%;
+
+}
 
 
 
@@ -199,6 +226,13 @@ h1 {
 }
 
 
+.prices-special-sand {
+	display: inline-block;
+	background-color: transparent;
+	height: 65px;
+	margin-left: 19%;
+}
+
 
 .container02 {
 	margin-left: 5%;
@@ -213,7 +247,128 @@ margin-left: 5%;
 }
 
 
-.about-section1 {
+.about-section02 {
 margin-left: 5%;
+
+
+
+}
+
+
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 700px) {
+
+h1 {
+	font-size: 350%;
+	margin-bottom: 20px;
+}
+
+
+h2 {
+	font-size: 300%;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 200%;
+}
+
+
+p1 {
+	font-size: 100%;
+}
+
+
+	.button {
+		padding: 1em 5em 1em 5em;
+		margin-top: 15px;
+		margin-right: 25px;
+		margin-left: 20px;
+		margin-bottom: 10px;}
+
+
+	.gallery-1 {
+flex-wrap:nowrap;
+position: relative;
+	}
+
+
+	.gallery-2 {
+			flex-wrap:nowrap;
+			position: relative;
+	}
+
+	.gallery-3 {
+		flex-wrap:nowrap;
+		position: relative;
+	}
+
+	.gallery-4 {
+			flex-wrap:nowrap;
+			position:relative;
+	}
+
+
+
+
+
+
+.hotdrinks_move{
+	display: inline-block;
+	width: 100%;
+}
+
+
+
+
+
+
+
+.sub-header-container-sandwiches{
+	display: inline-block;
+}
+
+
+.sandwiches_move{
+	display: inline-block;
+}
+
+.menu-items-sand {
+	display: inline-block;
+	width: 100%;
+}
+
+
+.prices-special-sand {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+.design_north{
+	display: inline-block;
+	width: 100%;
+}
+
+
+
+.bio_move {
+display: inline-block;
+width: 100%;
+margin-left: 300px;
+
+
+}
+
+.sub-header-container02 {
+display: inline-block;
+}
 
 }
