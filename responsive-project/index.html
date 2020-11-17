@@ -14,17 +14,19 @@
 
     <!-- title header -->
 
-    <div class="header-container">
+    <div class="header-container logo"> <!--created a logo class, just so we can adding margin underneath this specifically in our css, without it affecting all the other .header-container class stylings -->
       <h1> <strong>charlie's</br>cafe</strong></h2>
     </div>
 
 
 <!--- buttons / nav bar are here -->
 
+   <div class="nav-buttons"> <!--Let's add a div to contain these buttons, so we can more easily position them in our css -->
     <a href="#menu"><button>menu</button></a>
     <a href="#about"><button>about</button></a>
     <a href="#locations"><button>locations</button></a>
     <a href="#contact"><button>contact</button></a>
+  </div> <!--Closing nav-buttons div-->
 
 
 <!--- image banner is here -->
@@ -37,32 +39,40 @@
 
 <!-- menu header -->
 
-      <div class="header-container">
+  <div class="header-container">
         <h2> <strong>menu</strong></h2>
       </div>
 
 <!-- gallery images -->
 
-      <div class="gallery-1">
+      <!--instead of wrapping every image in it's own div, create one div to wrap around this whole gallery group. I'm going to commment out your old code that you no longer need. I'm also taking width, height, and position off of your image tags, we will adress that in the css-->
+
+  <!-- <div class="gallery-1"> -->
+        <div class="new-gallery"> <!--new gallery div start-->
+
         <img id="honeycup" src="https://github.com/ranyewest/gra-321/blob/master/responsive-project/img/honey%20cup-01.png?raw=true"
-        alt="honey cup" width="145px" height="145px" position="relavtive">
-      </div>
+        alt="honey cup" >
 
-      <div class="gallery-2">
+     <!-- </div> -->
+
+      <!-- <div class="gallery-2"> -->
+
         <img src="https://github.com/ranyewest/gra-321/blob/master/responsive-project/img/tea%20and%20cookies-01.png?raw=true"
-        alt="tea and cookies" width="145px" height="145px" position="relavtive">
-      </div>
+        alt="tea and cookies" >
 
-      <div class="gallery-3">
+      <!-- </div> -->
+
+
+      <!--  <div class="gallery-3"> -->
         <img src="https://github.com/ranyewest/gra-321/blob/master/responsive-project/img/honey%20lemon-01.png?raw=true"
-        alt="honey lemon" width="145px" height="145px" position="relavtive">
-      </div>
+        alt="honey lemon" >
+      <!-- </div> -->
 
-      <div class="gallery-4">
+      <!-- <div class="gallery-4"> -->
         <img src="https://github.com/ranyewest/gra-321/blob/master/responsive-project/img/cinnamon-01.png?raw=true"
-        alt="cinnamon" width="145px" height="145px" position="relavtive">
-      </div>
-
+        alt="cinnamon" >
+     <!--  </div> -->
+  </div> <!--new gallery div end-->
 
 
 <!--- menu starts here-->
@@ -72,7 +82,8 @@
 
 <!-- hot drinks here -->
 <section id="menu">
-  <div class="hotdrinks_move">
+  <div class="menu-row-1"><!--menu row 1 start-->
+  <div class="hotdrinks_move"><!--hot drinks start-->
 <div class="sub-header-container">
   <h3> <strong>hot drinks</strong></h3>
 </div>
@@ -165,15 +176,15 @@ L $4.25</br>
 </br>
 </p4>
 </div>
-</div>
+</div> <!--hot drinks end-->
 
 
 <!-- sandwitches here -->
 <div class="sandwiches_move">
-<div class="sub-header-container-sandwiches">
-  <h3> <strong>sandwitches</strong></h3>
+<div class="sub-header-container">
+  <h3> <strong>sandwiches</strong></h3>
 </div>
-<div class="menu-items-sand">
+<div class="menu-items">
   <p1>
     italiano</br>
     seville</br>
@@ -187,7 +198,7 @@ L $4.25</br>
 </div>
 
 
-<div class="prices-special-sand">
+<div class="prices-special">
   <p3>
     $6.95</br>
     $6.95</br>
@@ -199,11 +210,13 @@ L $4.25</br>
 
 </p3>
 </div>
-</div>
+</div> <!--sandwiches end-->
+</div><!--menu-row-1 end-->
 
 
 <!-- hot teas here -->
-
+<div class="menu-row-2">  <!-- menu-row-2 start-->
+  <div class="hotteas_move">
 <div class="sub-header-container">
   <h3> <strong>hot teas</strong></h3>
 </div>
@@ -294,10 +307,10 @@ $1.00 </br></br>
 </br>
 </p4>
 </div>
-
+</div>
 
 <!-- drink specials here -->
-
+<div class="drinkspecials_move">
 <div class="sub-header-container">
   <h3> <strong>drink specials</strong></h3>
 </div>
@@ -326,10 +339,13 @@ $1.00 </br></br>
     $6.95</br>
 </p3>
 </div>
+</div>
+</div>  <!-- menu-row-2 end-->
 
 
 <!-- iced drinks here -->
-
+<div class="menu-row-3">
+  <div class="iceddrinks_move">
 <div class="sub-header-container">
   <h3> <strong>iced drinks</strong></h3>
 </div>
@@ -383,7 +399,8 @@ $1.00 </br></br>
     M $4.95</br>
     M $4.45</br>
     M $3.75</br>
-    M $3.75</br>
+  </br>
+</br>
 </br>
 </br>
 </br>
@@ -407,7 +424,7 @@ $1.00 </br></br>
     L $5.75</br>
   </br>
     </br>
-    L $4.25</br>
+
 </br>
 </br>
 </br>
@@ -415,9 +432,10 @@ $1.00 </br></br>
 </br>
 </br></p4>
 </div>
+</div>
 
 <!-- ice teas here -->
-
+<div class="iceteas_move">
 <div class="sub-header-container">
   <h3> <strong>ice teas</strong></h3>
 </div>
@@ -446,11 +464,13 @@ $1.00 </br></br>
     $6.95</br>
 </p3>
 </div>
+</div>
+</div>
 
 
 <!--- image banner02 is here -->
 
-    <div class="container02">
+    <div class="container">
       <img src="https://github.com/ranyewest/gra-321/blob/master/responsive-project/img/crepe%20banner.png?raw=true"
       alt="flowerbanner" width="100%" height="100%">
       </div>
@@ -468,14 +488,14 @@ $1.00 </br></br>
             charlie's café, one of sun devil dining’s local restaurant partners, brings the taste of europe to asu! proudly serving lavazza italian espresso and featuring fresh european sandwiches and baked goods. come experience the difference! with three locations on campus, there is always a charlie's cafe near! charlie’s café is located at the hayden library, bio design b building and the college of design.
         </p5>
         </div>
-
+</section>
 
 <section id="contact">
         <div class="sub-header-container">
           <h3> <strong>contact us</strong></h3>
         </div>
         <p6> (480) 965-3515 </p6>
-
+</section>
 
     <!-- locations header -->
 
@@ -484,7 +504,8 @@ $1.00 </br></br>
                 <h2> <strong>hours by locations</strong></h2>
               </div>
 
-
+              <div class="hours-row-1">
+                <div class="hayden_move">
               <div class="sub-header-container">
                 <h4>charlie's cafe hayden library</h4>
               </div>
@@ -493,21 +514,8 @@ $1.00 </br></br>
                 monday - friday : 7 am - 3 pm
               </br>
                 saturday - sunday : closed</br></br>
-              </p5> </div>
-
-
-
-              <div class="design_north">
-              <div class="sub-header-container">
-                <h4>charlie's cafe design north</h4>
-              </div>
-
-              <div class="about-section">
-              <p5>
-                monday - friday : 7 am - 3 pm
-              </br>
-                saturday - sunday : closed </br></br>
               </p5> </div></div>
+
 
 
 
@@ -523,13 +531,31 @@ $1.00 </br></br>
                 saturday - sunday : closed </br></br>
               </p5>
             </div>
-            </div
+          </div>
+        </div>
+
+
+        <div class="hours-row-2">
+          <div class="design_move">
+          <div class="sub-header-container">
+            <h4>charlie's cafe design north</h4>
+          </div>
+
+          <div class="about-section">
+          <p5>
+            monday - friday : 7 am - 3 pm
+          </br>
+            saturday - sunday : closed </br></br>
+          </p5> </div></div>
+
+
 
   <!-- title header -->
-
+        <div class="logo_move">
               <div class="header-container">
                 <h1> <strong>charlie's</br>cafe</strong></h2>
-              </div>
+              </div></div></div>
+            </section>
 </br></br></br>
   </body>
 </html>
